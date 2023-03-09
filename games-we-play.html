@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Games We Play</title>
+<link type="text/css" rel="stylesheet" href="css/my-first-stylesheet.css"/>
+</head>
+<body>
+<nav>
+<ul>
+<li><a href="about-us.html">About Us</a></li>
+<li><a href="things-we-do.html">Things We Do</a></li>
+<li class="selected">Games We Play</li>
+<li><a href="study_tips.html">Study Tips</a></li>
+<li><a href="hifz.html">Hifz</a></li>
+<li><a href="real-life.html">Among Us in Real Life</a></li>
+</ul>
+</nav>
+<h1>Games We Play</h1>
+<p><img src="images/games.jpg" alt="Pic of favourite games"/></p>
+<p>Oh! Multazim wants to give a message!</p>
+<p>
+<img id="display-image" onclick="swapImage()" src="images/multi.jpg" width="240" height="327"/>
+</p>
+<p>Me and Umar made these awesome hats together! Try it out!</p>
+<script>
+function swapImage() {
+
+var imageDisplayed = document.getElementById('display-image');
+
+if (imageDisplayed.src.match("images/multi.jpg")) {
+
+imageDisplayed.src = "images/multi1.jpg";
+
+}
+
+else {
+
+imageDisplayed.src = "images/multi.jpg";
+
+}
+
+}
+</script>
+<section>
+<h2>Online Games:</h2>
+<ol>
+<li>Brawl Stars - Battle, Defeat, Modes and Brawlers: Just an amazing action game!</li>
+<li>Stumble Guys - Dive, Jump, Run and Race: Just an amazing parkour obby game!</li>
+<li>Super Sus & Among Us - Many Roles, Awesome Tasks, Killing and Sabotage: Just a cool classic crime game!</li>
+<li>Wordscapes - Classic, Finding Words, Tournaments and Clubs: Just a classic game to train your brain!</li>
+<li>Roblox - Any Games, All Genres, Cool Avatars and Great Fun: Just the game to put your skills on!</li>
+<li>Shiloh & Bros Impostor Chase - Amazing Game, Fun Challenges, Do Tasks and Kill Friends: Just a fast-paced minigame to play!</li>
+<li>Brain Test - Cool Tricks, Some storylines, Brilliant Brain Game and Supreme Levels: Just a brain game that isn't boring!</li>
+<li>Youtube - Let's watch!</li>
+</ol>
+<p>
+</section>
+<section>                                                                                                                                                                                           </p>
+<h2>Physical Games:</h2>
+<ol>
+<li>Football</li>
+<li>Mafia</li>
+<li>Among Us in Real Life</li>
+<li>Roblox Piggy in Real Life</li>
+<li>It/Tag</li>
+<li>Country Game</li>
+<li>Dodgeball</li>
+<li>Other Miscellaneous Games</li>
+</ol>
+</section>
+<p class="top-tip">If you're bad at the game, don't be shy! Play with the group - games are about having fun!</p>
+</body>
+</html>
